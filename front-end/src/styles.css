@@ -1,0 +1,15 @@
+html{
+    background-color: rgb(32, 32, 32);
+}
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	font-family: Raleway, sans-serif;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background: linear-gradient(135deg, #FFCDD2, #FFE082);}
+

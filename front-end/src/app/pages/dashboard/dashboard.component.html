@@ -1,0 +1,14 @@
+<div *ngIf="appointments.length > 0; else noAppointments">
+    <h2>Appointments</h2>
+    <ul>
+      <li *ngFor="let appointment of appointments">
+        <strong>Date:</strong> {{ appointment.date | date:'short' }}<br>
+        <strong>Doctor:</strong> {{ appointment.doctor.name }}
+      </li>
+    </ul>
+</div>
+  
+<ng-template #noAppointments>
+    <p>No appointments available.</p>
+</ng-template>
+  
